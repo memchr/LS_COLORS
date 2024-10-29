@@ -1,4 +1,4 @@
-#                                    LS_COLORS
+#                                    LS_COLORS (MOD)
 # Maintainers: Magnus Woldrich <m@japh.se>,
 #              Ryan Delaney <ryan.patrick.delaney@protonmail.com>
 #         URL: https://github.com/trapd00r/LS_COLORS
@@ -35,11 +35,11 @@
 #NORMAL               38;5;254
 
 BLK                   38;5;68             # core
-CAPABILITY            38;5;17             # core
-CHR                   38;5;113;1          # core
-DIR                   38;5;30             # core
+CAPABILITY            38;5;42;1           # core
+CHR                   40;33;1             # core
+DIR                   38;5;33;1           # core
 DOOR                  38;5;127            # core
-EXEC                  38;5;208;1          # core
+EXEC                  32;1                # core
 FIFO                  38;5;126            # core
 FILE                  0                   # core
 LINK                  target              # core
@@ -90,15 +90,15 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .rst                  38;5;184            # Markup
 .tex                  38;5;184            # Markup
 .textile              38;5;184            # Markup
-.bib                  38;5;178            # Data store # non-relational
-.json                 38;5;178            # Data store # non-relational
-.jsonc                38;5;178            # Data store # non-relational
-.json5                38;5;178            # Data store # non-relational
-.hjson                38;5;178            # Data store # non-relational
-.jsonl                38;5;178            # Data store # non-relational
-.jsonnet              38;5;178            # Data store # non-relational
+.bib                  38;5;180            # Data store # non-relational
+.json                 38;5;180            # Data store # non-relational
+.jsonc                38;5;180            # Data store # non-relational
+.json5                38;5;180            # Data store # non-relational
+.hjson                38;5;180            # Data store # non-relational
+.jsonl                38;5;180            # Data store # non-relational
+.jsonnet              38;5;180            # Data store # non-relational
 .libsonnet            38;5;142            # Data store # non-relational
-.ndjson               38;5;178            # Data store # non-relational
+.ndjson               38;5;180            # Data store # non-relational
 .msg                  38;5;178            # Data store # non-relational
 .pgn                  38;5;178            # Data store # non-relational
 .rss                  38;5;178            # Data store # non-relational
@@ -118,17 +118,17 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .accde                38;5;60             # Data store # MS Access
 .accdr                38;5;60             # Data store # MS Access
 .accdt                38;5;60             # Data store # MS Access
-.db                   38;5;60             # Data store
-.fmp12                38;5;60             # Data store
-.fp7                  38;5;60             # Data store
-.localstorage         38;5;60             # Data store
-.mdb                  38;5;60             # Data store
-.mde                  38;5;60             # Data store
-.sqlite               38;5;60             # Data store # SQLite
-.typelib              38;5;60             # Data store
-.nc                   38;5;60             # Data store # NetCDF
-.azw                  38;5;141            # Documents # binary
-.azw3                 38;5;141            # Documents # binary
+.db                   38;5;188            # Data store
+.fmp12                38;5;188            # Data store
+.fp7                  38;5;188            # Data store
+.localstorage         38;5;188            # Data store
+.mdb                  38;5;188            # Data store
+.mde                  38;5;188            # Data store
+.sqlite               38;5;188            # Data store # SQLite
+.typelib              38;5;188            # Data store
+.nc                   38;5;188            # Data store # NetCDF
+.azw                  38;5;188            # Data store
+.azw3                 38;5;188            # Data store # NetCDF
 .cbr                  38;5;141            # Documents # binary
 .cbz                  38;5;141            # Documents # binary
 .chm                  38;5;141            # Documents # binary
@@ -203,7 +203,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .gitignore            38;5;240            # Version control
 .gitattributes        38;5;240            # Version control
 .gitmodules           38;5;240            # Version control
-.awk                  38;5;172            # Code (shell)
+.awk                  38;5;059            # Code (shell)
 .bash                 38;5;172            # Code (shell)
 .bat                  38;5;172            # Code (shell)
 .BAT                  38;5;172            # Code (shell)
@@ -214,8 +214,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .vim                  38;5;172            # Code (shell)
 .kak                  38;5;172            # Code (shell)
 .ahk                  38;5;41             # Code (interpreted) (AutoHotKey)
-.py                   38;5;41             # Code (interpreted) (Python)
-.ipynb                38;5;41             # Code (interpreted) (Python)
+.py                   38;5;214            # Code (interpreted) (Python)
+.ipynb                38;5;222            # Code (interpreted) (Python)
 .xsh                  38;5;41             # Code (interpreted) (xonsh)
 .rb                   38;5;41             # Code (interpreted) (ruby)
 .gemspec              38;5;41             # Code (interpreted) (ruby)
@@ -223,14 +223,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .PL                   38;5;160            # Code (interpreted) (Perl)
 .pm                   38;5;203            # Code (interpreted) (Perl)
 .t                    38;5;114            # Code (interpreted) (Perl)
-.msql                 38;5;222            # Code (SQL)
-.mysql                38;5;222            # Code (SQL)
-.prql                 38;5;222            # Code (SQL)
-.pgsql                38;5;222            # Code (SQL)
-.sql                  38;5;222            # Code (SQL)
+.msql                 38;5;188            # Code (SQL)
+.mysql                38;5;188            # Code (SQL)
+.prsql                38;5;188            # Code (SQL)
+.pgsql                38;5;188            # Code (SQL)
+.sql                  38;5;188            # Code (SQL)
 .tcl                  38;5;64;1           # Code (interpreted) (Tool Command Language)
-.r                    38;5;49             # Code (interpreted) (R)
-.R                    38;5;49             # Code (interpreted) (R)
+.r                    38;5;65             # Code (interpreted) (R)
+.R                    38;5;65             # Code (interpreted) (R)
 .gs                   38;5;81             # GrADS
 .clj                  38;5;41             # Clojure
 .cljs                 38;5;41             # Clojure
@@ -247,27 +247,28 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .el                   38;5;81             # LISP (Emacs)
 .elc                  38;5;241            # LISP (Emacs)
 .eln                  38;5;241            # LISP (Emacs)
-.lua                  38;5;81             # Code (interpreted) (Lua)
+.lua                  38;5;74             # Code (interpreted) (Lua)
 .moon                 38;5;81             # Code (interpreted) (Moonscript)
-.c                    38;5;81             # C
-.C                    38;5;81             # C
+.c                    38;5;67             # C
+.C                    38;5;67             # C
 .h                    38;5;110            # C headers
 .H                    38;5;110            # C headers
 .tcc                  38;5;110            # C headers
-.c++                  38;5;81             # C++
-.h++                  38;5;110            # C++ headers
-.hpp                  38;5;110            # C++ headers
-.hxx                  38;5;110            # C++ headers
+.c++                  38;5;204            # C++
+.h++                  38;5;99             # C++ headers
+.hpp                  38;5;99             # C++ headers
+.hxx                  38;5;99             # C++ headers
 .ii                   38;5;110            # C++ headers
 .M                    38;5;110            # Objective C method file
 .m                    38;5;110            # Objective C method file
-.cc                   38;5;81             # Csharp
+.cc                   38;5;204            # C++
+.hh                   38;5;99             # C++ headers
 .cs                   38;5;81             # Csharp
 .cp                   38;5;81             # Csharp
-.cpp                  38;5;81             # Csharp
-.cxx                  38;5;81             # Csharp
+.cpp                  38;5;204            # C++
+.cxx                  38;5;204            # C++
 .cr                   38;5;81             # Crystal
-.go                   38;5;81             # Golang
+.go                   38;5;67             # Golang
 .f                    38;5;81             # Fortran
 .F                    38;5;81             # Fortran
 .for                  38;5;81             # Fortran
@@ -284,15 +285,15 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .nimble               38;5;81             # Nim
 .s                    38;5;110            # Pascal
 .S                    38;5;110            # Pascal
-.rs                   38;5;81             # Code (compiled) (Rust)
+.rs                   38;5;180            # Code (compiled) (Rust)
 .scpt                 38;5;219            # AppleScript
 .swift                38;5;219            # Swift
 .sx                   38;5;81             # SimplexNumerica
-.vala                 38;5;81             # Vala
-.vapi                 38;5;81             # Vala
+.vala                 38;5;185            # Vala
+.vapi                 38;5;185            # Vala
 .hi                   38;5;110            # Haskell
-.hs                   38;5;81             # Haskell
-.lhs                  38;5;81             # Haskell
+.hs                   38;5;140            # Haskell
+.lhs                  38;5;140            # Haskell
 .agda                 38;5;81             # Agda
 .lagda                38;5;81             # Agda
 .lagda.tex            38;5;81             # Agda
@@ -302,6 +303,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .zig                  38;5;81             # Zig
 .v                    38;5;81             # V
 .rego                 38;5;178            # Code (Rego)
+.gd                   38;5;66             # godot
 .pyc                  38;5;240            # Code (Python)
 .tf                   38;5;168            # Code (Terraform)
 .tfstate              38;5;168            # Code (Terraform)
@@ -322,16 +324,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .svelte               38;5;135;1          # Templating (Web)
 .vue                  38;5;135;1          # Templating (Web)
 .astro                38;5;135;1          # Templating (Web)
-.js                   38;5;074;1          # Javascript
-.jsx                  38;5;074;1          # Javascript eXtended
+.js                   38;5;185;1          # Javascript
+.jsx                  38;5;185;1          # Javascript eXtended
 .ts                   38;5;074;1          # Typescript
 .tsx                  38;5;074;1          # Typescript eXtended
-.mjs                  38;5;074;1          # ECMAScript
-.cjs                  38;5;074;1          # CommonJS
-.coffee               38;5;079;1          # Java
-.java                 38;5;079;1          # Java
-.jsm                  38;5;079;1          # Java
-.jsp                  38;5;079;1          # Java
+.mjs                  38;5;185;1          # ECMAScript
+.cjs                  38;5;185;1          # CommonJS
+.coffee               38;5;130;1          # Java
+.java                 38;5;130;1          # Java
+.jsm                  38;5;130;1          # Java
+.jsp                  38;5;130;1          # Java
 .php                  38;5;81             # php
 .ctp                  38;5;81             # php (CakePHP)
 .twig                 38;5;81             # php (Twig)
@@ -344,6 +346,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .dockerignore         38;5;240            # Build process (Docker)
 *Makefile             38;5;155            # Build process (Make)
 *MANIFEST             38;5;243            # Build process (Make)
+*PKGBUILD             38;5;221;1;4        # Build process (pacman)
 *pm_to_blib           38;5;240            # Build process (Perl)
 .nix                  38;5;155            # Functional configuration
 .dhall                38;5;178            # Functional configuration
@@ -358,33 +361,35 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .SKIP                 38;5;244            # Build process (Automake)
 .diff                 48;5;197;38;5;232   # Patch files
 .patch                48;5;197;38;5;232;1 # Patch files
-.bmp                  38;5;97             # Graphics
-.dicom                38;5;97             # Graphics
-.tiff                 38;5;97             # Graphics
-.tif                  38;5;97             # Graphics
-.TIFF                 38;5;97             # Graphics
-.cdr                  38;5;97             # Graphics
-.flif                 38;5;97             # Graphics
-.gif                  38;5;97             # Graphics
-.icns                 38;5;97             # Graphics
-.ico                  38;5;97             # Graphics
-.jpeg                 38;5;97             # Graphics
-.JPG                  38;5;97             # Graphics
-.jpg                  38;5;97             # Graphics
-.jxl                  38;5;97             # Graphics
-.nth                  38;5;97             # Graphics
-.png                  38;5;97             # Graphics
-.psd                  38;5;97             # Graphics
-.pxd                  38;5;97             # Graphics
-.pxm                  38;5;97             # Graphics
-.xpm                  38;5;97             # Graphics
-.webp                 38;5;97             # Graphics
-.ai                   38;5;99             # Graphics (Vector)
-.eps                  38;5;99             # Graphics (Vector)
-.epsf                 38;5;99             # Graphics (Vector)
-.drw                  38;5;99             # Graphics (Vector)
-.ps                   38;5;99             # Graphics (Vector)
-.svg                  38;5;99             # Graphics (Vector)
+.bmp                  38;5;140            # Graphics
+.dicom                38;5;140            # Graphics
+.tiff                 38;5;140            # Graphics
+.tif                  38;5;140            # Graphics
+.TIFF                 38;5;140            # Graphics
+.cdr                  38;5;140            # Graphics
+.flif                 38;5;140            # Graphics
+.gif                  38;5;140            # Graphics
+.icns                 38;5;140            # Graphics
+.ico                  38;5;140            # Graphics
+.jpeg                 38;5;140            # Graphics
+.JPG                  38;5;140            # Graphics
+.jpg                  38;5;140            # Graphics
+.jxl                  38;5;140            # Graphics
+.nth                  38;5;140            # Graphics
+.png                  38;5;140            # Graphics
+.psd                  38;5;140            # Graphics
+.pxd                  38;5;140            # Graphics
+.pxm                  38;5;140            # Graphics
+.xpm                  38;5;140            # Graphics
+.webp                 38;5;140            # Graphics
+.ai                   38;5;140            # Graphics (Vector)
+.eps                  38;5;140            # Graphics (Vector)
+.epsf                 38;5;140            # Graphics (Vector)
+.drw                  38;5;140            # Graphics (Vector)
+.ps                   38;5;140            # Graphics (Vector)
+.svg                  38;5;140            # Graphics (Vector)
+.avif                 38;5;140            # Graphics
+.AVIF                 38;5;140            # Graphics
 .avi                  38;5;114            # Video
 .divx                 38;5;114            # Video
 .IFO                  38;5;114            # Video
@@ -458,34 +463,36 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .woff2                38;5;66             # Fonts
 .PFA                  38;5;66             # Fonts
 .pfa                  38;5;66             # Fonts
-*.7z                  38;5;40             # Archives
-*.a                   38;5;40             # Archives
-*.arj                 38;5;40             # Archives
-*.br                  38;5;40             # Archives
-*.bz2                 38;5;40             # Archives
-*.cpio                38;5;40             # Archives
-*.gz                  38;5;40             # Archives
-*.lrz                 38;5;40             # Archives
-*.lz                  38;5;40             # Archives
-*.lzma                38;5;40             # Archives
-*.lzo                 38;5;40             # Archives
-*.rar                 38;5;40             # Archives
-*.s7z                 38;5;40             # Archives
-*.sz                  38;5;40             # Archives
-*.tar                 38;5;40             # Archives
-*.tbz                 38;5;40             # Archives
-*.tgz                 38;5;40             # Archives
-*.warc                38;5;40             # Archives
-*.WARC                38;5;40             # Archives
-*.xz                  38;5;40             # Archives
-*.z                   38;5;40             # Archives
-*.zip                 38;5;40             # Archives
-*.zipx                38;5;40             # Archives
-*.zoo                 38;5;40             # Archives
-*.zpaq                38;5;40             # Archives
-*.zst                 38;5;40             # Archives
-*.zstd                38;5;40             # Archives
-*.zz                  38;5;40             # Archives
+*.7z                  31;1                # Archives
+*.a                   31;1                # Archives
+*.arj                 31;1                # Archives
+*.br                  31;1                # Archives
+*.bz2                 31;1                # Archives
+*.cpio                31;1                # Archives
+*.gz                  31;1                # Archives
+*.lrz                 31;1                # Archives
+*.lz                  31;1                # Archives
+*.lzma                31;1                # Archives
+*.lzo                 31;1                # Archives
+*.rar                 31;1                # Archives
+*.s7z                 31;1                # Archives
+*.sz                  31;1                # Archives
+*.tar                 31;1                # Archives
+*.tbz                 31;1                # Archives
+*.tgz                 31;1                # Archives
+*.warc                31;1                # Archives
+*.WARC                31;1                # Archives
+*.xz                  31;1                # Archives
+*.z                   31;1                # Archives
+*.zip                 31;1                # Archives
+*.zipx                31;1                # Archives
+*.zoo                 31;1                # Archives
+*.zpaq                31;1                # Archives
+*.zst                 31;1                # Archives
+*.zstd                31;1                # Archives
+*.zz                  31;1                # Archives
+*.tzt                 31;1                # Archives
+*.tzst                31;1                # Archives
 .apk                  38;5;215            # Packaged apps
 .ipa                  38;5;215            # Packaged apps
 .deb                  38;5;215            # Packaged apps
@@ -505,6 +512,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .xpi                  38;5;215            # Packaged apps # Mozilla Firefox extension
 .iso                  38;5;124            # Partition images
 .img                  38;5;124            # Partition images
+.qcow2                38;5;124            # Partition images
+.qcow                 38;5;124            # Partition images
 .bin                  38;5;124            # Partition images
 .nrg                  38;5;124            # Partition images
 .qcow                 38;5;124            # Partition images
@@ -521,7 +530,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .swo                  38;5;244            # Temporary files
 .tmp                  38;5;244            # Temporary files
 .sassc                38;5;244            # Temporary files
-.pacnew               38;5;33             # Undo files
+.pacnew               38;5;201            # Undo files
 .un~                  38;5;241            # Undo files
 .orig                 38;5;241            # Undo files
 .BUP                  38;5;241            # Backups
@@ -554,6 +563,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .deny                 38;5;196            # /etc/hosts
 .service              38;5;45             # systemd
 *@.service            38;5;45             # systemd
+.slice                38;5;45             # systemd
 .socket               38;5;45             # systemd
 .swap                 38;5;45             # systemd
 .device               38;5;45             # systemd
@@ -578,6 +588,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .urlview              38;5;116            # metadata
 .webloc               38;5;116            # metadata
 .asc                  38;5;192;3          # Encrypted data
+.age                  38;5;192;3          # Encrypted data
 .bfe                  38;5;192;3          # Encrypted data
 .enc                  38;5;192;3          # Encrypted data
 .gpg                  38;5;192;3          # Encrypted data
