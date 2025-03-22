@@ -11,6 +11,7 @@ clean:
 generate: clean
 	@command sort LS_COLORS | dircolors --bourne-shell - > ${FILE_NAME}.sh
 	@command sort LS_COLORS | dircolors --c-shell      - > ${FILE_NAME}.csh
+	@command sort LS_COLORS | dircolors --c-shell - | sed s/setenv/'set -gx'/ > ${FILE_NAME}.fish
 
 install: generate
 	@command cp ${FILE_NAME}.sh ${FILE_NAME}.csh $(XDG_DATA_HOME)
